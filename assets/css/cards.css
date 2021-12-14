@@ -1,0 +1,194 @@
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card_new {
+    margin: 30px auto;
+    width: 737px;
+    height: 239px;
+    border-radius: 40px;
+  /* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+  cursor: pointer;
+    transition: 0.4s;
+    position: relative;
+    background: linear-gradient(90deg, #EC41FF, #0984E3);
+  }
+  .desigcontainer{
+            width: 1095px;
+            height: 256px;
+        }
+  .paycard{
+           width: 100%;
+            height: 234px;
+            margin-top: 0px;
+    margin-bottom: 34px;
+        }
+        .careercard{
+          height: 440px;
+        }
+
+  
+  .card_new .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card_new .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  
+  .card_new .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    height: 40px;
+    width: 100%;
+    font-weight: bold;
+   
+    opacity: 0.7;
+  }
+
+  .card_new .card_details{
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    top: 90px;
+    height: 40px;
+    padding: 0 4%;
+    color: #fff;
+    word-spacing: .1px;
+  }
+  
+  .card_new:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    color: black;
+  }
+
+  #cards-sop{
+    padding: 29px 0;
+  }
+
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+    .container-again{
+      height: 150px;
+      font-size: 24px;
+    }
+    .container-again1{
+      width: 200px;
+     margin: auto;
+     margin-top: 10px;
+    }
+  }
+  @media all and (max-width: 768px){
+    .container-again{
+      height: 150px;
+      font-size: 30px;
+    }
+    .container-again1{
+      width: 200px;
+     margin: auto;
+     margin-top: 0px;
+    }
+    #unique1{
+      height: 210px;
+
+    }
+    #unique2{
+      margin-left: 48px;
+      
+     
+    }
+  }
+  @media all and (max-width: 572px){
+    .container-again{
+      margin-top: 105px;
+      height: 145px;
+      font-size: 28px;
+      margin-bottom: ;
+    }
+    .container-again1{
+      width: 200px;
+     margin: auto;
+     display: inherit;
+
+
+     
+    }
+    #unique1{
+      height: 145px;
+      font-size: 23px;
+
+    }
+    #unique2{
+      margin-left: 75px;
+   margin-top: 10px;
+    display: block;
+      
+     
+    }
+    .desigcontainer{
+            width: 305px;
+            height: 513px;
+
+        }
+
+        .paycard{
+           width: 100%;
+            height: 472px;
+            margin-top: -8px;
+        }
+        .first-card{
+            height: 470px;
+        }
+
+
+  }
+  
+  
+  /*
+  .card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    transition: 0.4s;
+  }
+  */
+
+
+  Join Web Design & Development Classes Today. Apply now

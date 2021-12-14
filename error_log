@@ -1,0 +1,2 @@
+[10-Nov-2021 14:55:36 Asia/Kolkata] PHP Warning:  mysqli_insert_id() expects exactly 1 parameter, 0 given in /home/tgcindi/public_html/course/web-development-course/contact-model.php on line 38
+[10-Nov-2021 14:55:52 Asia/Kolkata] PHP Warning:  mysqli_insert_id() expects exactly 1 parameter, 0 given in /home/tgcindi/public_html/course/web-development-course/contact-model.php on line 38
